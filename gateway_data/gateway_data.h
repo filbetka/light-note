@@ -1,0 +1,6 @@
+#ifndef GATEWAY_DATA_LIBRARY_H
+#define GATEWAY_DATA_LIBRARY_H
+
+void hello();
+
+#endif //GATEWAY_DATA_LIBRARY_H
