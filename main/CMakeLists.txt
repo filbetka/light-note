@@ -4,5 +4,5 @@ project(main)
 include(../CMakeLists.txt)
 add_executable(main main.cpp)
 
-include_directories(${PROJECT_DIR}/gateway_data)
+include_directories(${PROJECT_DIR}/data_managment/gateway_data)
 target_link_libraries(main ${PROJECT_DIR}/build/libgateway_data.so)
