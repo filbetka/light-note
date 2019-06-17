@@ -2,7 +2,8 @@
 #include <iostream>
 #include "datafile/datafile.h"
 
-void hello()
+int hello()
 {
     version();
+    return 1;
 }
